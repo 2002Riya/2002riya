@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Riya Pardeshi Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+	
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.packages .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  padding: 10px;
+}
+
+.packages .box-container .box{
+  flex:1 1 300px;
+  border-radius: .50px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+
+.packages .box-container .box img{
+  height: 250px;
+  width:100%;
+  object-fit: cover;
+}
+
+.packages .box-container .box .content{
+  padding:20px;
+}
+
+.packages .box-container .box .content h3{
+  font-size:20px;
+  color:#333;
+}
+
+.packages .box-container .box .content h3 i{
+  color:var(--orange);
+}
+
+.packages .box-container .box .content p{
+  font-size:17px;
+  color:#666;
+  padding:1rem 0;
+}
+
+.packages .box-container .box .content .stars i{
+  font-size:17px;
+  color:var(--orange);
+}
+
+.packages .box-container .box .content .price{
+  font-size: 20px;
+  color:#333;
+  padding-top: 10px;
+}
+
+.packages .box-container .box .content .price span{
+  color:#666;
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.packages .mesorny{
+    columns: 4;
+    column-gap: 1.6rem;
+    padding: .4rem;
+}
+.packages .grid img{
+    width: 100%;
+    border-radius: .5rem;
+}
+.packages .grid{
+    display: inline-block;
+    margin-bottom: 1.6rem;
+    position: relative;
+}
+@media (max-width: 1200px){
+    .packages .mesorny{
+        columns: 3;
+    }
+}
+@media (max-width: 992px){
+    nav{
+        display: inline-table;
+        justify-content: center;
+    }
+    
+    .packages .mesorny{
+        columns: 2;
+    }
+}
+@media (max-width: 520px){
+    .packages .mesorny{
+        columns: 1;
+    }
+}
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	 <div class="nav"> 
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Riya Pardeshi</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Blogs</span></a></li>
+	          <li class="nav-item"><a href="#Testimonials-section" class="nav-link"><span>Testimonials</span></a></li>
+			  <li class="nav-item"><a href="#packages" class="nav-link"><span>Gallery</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	</div>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Riya-removebg-preview_enhanced.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Namaste!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Riya Pardeshi</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'MBA Student  ',
+						'',
+						'   ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>MIT-WPU Student</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="http://www.linkedin.com/in/riya-pardeshi-8185a2326" class="btn btn-primary py-3 px-4">LinkedIn</a> 
+							
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/Riya_3-removebg-preview_enhanced.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Riya Pardeshi</span></p>
+										<p><span class="title-s"></span> <span></span></p>
+										<p><span class="title-s"></span> <span></span></p>
+										<p><span class="title-s">Address: </span> <span>Pune, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>Leadership</span> <span class="pull-right">100%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Time Management</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Problem Solving</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Creativity</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Presentation Skills</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Riya Pardeshi is an MBA student specializing in Operations and Supply Chain Management (OSCM) at MIT-WPU Pune. Known for her strong analytical skills and strategic thinking, Riya has consistently demonstrated a passion for solving complex problems and optimizing processes. She is deeply involved in academic projects and has a keen interest in leveraging technology to streamline business operations. With a strong foundation in management principles and a drive for excellence, Riya is set to make a significant impact in the world of supply chain management. Her dedication to learning and continuous improvement makes her a promising future leader in the field.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>MBA Student</span></li>
+									<li class="d-flex"><span>Age:</span> <span>22</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Pursuing MBA-OSCM</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Marathi, Hindi</span></li>
+									<li class="d-flex"><span>Hobbies:</span> <span>Dancing &amp; Travelling</span></li>
+									<li class="d-flex"><span></span> <span></span></li>
+									<li class="d-flex"><span></span> <span></span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="" data-number=""></span> <span></span>
+									<span>&nbsp; </spanspan>
+								</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+								
+							
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Riya</h1>
+            <h2 class="mb-4">Riya</h2>
+            <p></p>
+          </div>
+        </div>
+
+		<div class="row">
+			<div class="row justify-content-center pb-5">
+		  <div class="col-md-10 heading-section text-center ftco-animate">
+			<h1 class="big big-2">Blogs</h1>
+			<h2 class="mb-4">Blogs</h2>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">"The Future of Operations and Supply Chain Management: Navigating the Changing Landscape"</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4">As an MBA student specializing in Operations and Supply Chain Management (OSCM) at MIT-WPU Pune, I’ve gained valuable insights into the evolving landscape of OSCM. The future of this field is being shaped by several key trends:
+							<ul>
+								<li>Digital Transformation: Technologies like AI, IoT, and blockchain are revolutionizing supply chains. AI optimizes inventory, IoT enables real-time tracking, and blockchain ensures secure transactions, enhancing efficiency and agility.</li>
+								<li>Sustainability: Businesses are increasingly focused on reducing their environmental impact. From sustainable sourcing to eco-friendly logistics, integrating sustainability into supply chains is becoming a business imperative.</li>
+								<li>Risk Management: The global disruptions caused by the pandemic have highlighted the need for resilient supply chains. Building flexibility and fostering strong supplier relationships are crucial to managing risks.</li>
+								<li>Automation and Human Capital: Automation is streamlining operations, but skilled professionals remain essential for strategic decision-making and managing complex systems.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Key Trends Shaping the Future of Operations and Supply Chain Management</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4">As an MBA student specializing in Operations and Supply Chain Management (OSCM) at MIT-WPU Pune, I have had the opportunity to explore how the landscape of OSCM is evolving. The field is undergoing significant changes, driven by technological advancements, global challenges, and shifting consumer demands. Here are some key trends I believe will shape the future of OSCM: 
+							<ul>
+								<li>Technological Integration
+									Innovations like Artificial Intelligence (AI), Machine Learning (ML), and the Internet of Things (IoT) are transforming supply chains. These technologies improve demand forecasting, real-time tracking, and overall efficiency, helping businesses make smarter, data-driven decisions.</li>
+								<li>Sustainability
+									Sustainability is becoming a priority for organizations. Companies are focusing on reducing their carbon footprint, sourcing responsibly, and optimizing supply chains to be both environmentally and economically sustainable.</li>
+								<li>Risk Management and Resilience
+									The COVID-19 pandemic underscored the importance of resilient supply chains. Today’s businesses need to be agile, able to quickly adapt to disruptions and uncertainties through diversification, strong supplier relationships, and enhanced forecasting methods.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+		
+	
+
+
+<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-10 heading-section text-center ftco-animate">
+			<h1 class="big big-2">Education</h1>
+			<h2 class="mb-4">Education</h2>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2023</span>
+    					<h2>Bachelor of Business Administration in International Business (BBA-IB)</h2>
+    					<span class="position">DY Patil International University</span>
+    					<p class="mt-4"></p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2019-2020</span>
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">DY Patil International University</span>
+    					<p class="mt-4"></p>
+    				</div>
+				</div>
+    		</div>
+			
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1_Hokceh_bzDGKT_SHlYW2ilrpGgsgCK-/view?usp=drivesdk " class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+		
+			
+			
+    	</div>
+    </section>
+	
+
+
+	<section class="ftco-section Testimonials-section ftco-no-pb" id="Testimonials-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Testimonials</h1>
+				<h2 class="mb-4">Testimonials</h2>
+				<p>Below are the following Testimonials</p>
+				<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Mitali Jambulkar</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4"> It has been a pleasure to work alongside Riya Pardeshi throughout our BBA-IB program. Riya is an exceptional student and a remarkable individual. Her ability to grasp complex concepts in international business and apply them practically has always impressed me. She consistently brings a fresh and insightful perspective to class discussions, and her analytical skills are top-notch.
+
+							What truly sets Riya apart is her leadership and teamwork. She has a natural ability to motivate and guide others, making sure that every team project runs smoothly and efficiently. Her strong communication skills, combined with her attention to detail, make her a reliable and valuable teammate. Riya’s ability to balance her academics with extracurricular activities is something I greatly admire, and it speaks to her time management and organizational skills.
+							<ul>
+								
+									
+								
+									
+								
+									
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Moinuddin Surya</span>
+						<h2></h2>
+						<span class="position"></span>
+						<p class="mt-4">It has been a privilege to work alongside Riya Pardeshi throughout our BBA-IB journey. From the very first semester, Riya stood out for her exceptional analytical skills, her ability to think strategically, and her strong commitment to excellence. She has a deep understanding of international business concepts and is always eager to contribute thoughtful insights in class discussions.
+
+							Riya is not just academically gifted, but also an excellent team player. She brings a positive attitude to group projects, always motivating the team to stay focused and achieve high standards. Her organizational skills, attention to detail, and ability to manage tasks efficiently have made her a go-to person for any collaborative work.
+							<ul>		
+								
+									
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">Rutuja Chavan</span>
+							<h2></h2>
+							<span class="position"></span>
+							<p class="mt-4">It has been an absolute pleasure studying alongside Riya Pardeshi at DY Patil College. Riya is one of the most dedicated and insightful students I have had the privilege of working with. Throughout our time together, she has consistently demonstrated a strong academic focus, a deep understanding of the concepts, and an exceptional ability to apply them in real-world situations.
+
+								What I admire most about Riya is her strong work ethic and her ability to balance academics with extracurricular activities. She is always eager to help her peers, share knowledge, and collaborate on projects, making her not only a valuable team member but also a great friend and mentor to those around her.
+								<ul>
+									
+									
+								
+									
+								
+									
+								</ul>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">Jay Patil</span>
+							<h2></h2>
+							<span class="position"></span>
+							<p class="mt-4">I had the privilege of being Riya Pardeshi's classmate during our graduation at DY Patil College, and I can confidently say that she is an exceptional individual who stands out for her dedication, intelligence, and positive attitude.
+
+								Riya consistently demonstrated a strong commitment to academics, excelling in her coursework while balancing extracurricular activities with remarkable ease. Her ability to collaborate and contribute effectively during group projects showcased her excellent teamwork and leadership skills.
+								
+								What truly sets Riya apart is her willingness to help others. She was always approachable and eager to assist classmates, whether it was explaining complex concepts or motivating us during challenging times. Her kindness and empathetic nature made her a valued friend and colleague to all.
+								<ul>
+									
+									
+								
+									
+								
+									
+								</ul>
+							</p>
+						</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+			</div>
+		</div>
+	<section class="packages" id="packages">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Photos</h1>
+				<h2 class="mb-4">Photos</h2>
+		   </div>
+			</div>
+		<div class="mesorny">
+			<div class="grid">
+				<img src="images/1.jpg" alt="">
+			</div>
+			<div class="grid">
+			   <img src="images/2.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/3.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/4.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/5.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/6.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/7.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/8.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/9.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/10.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/11.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/12.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/13.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/14.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/15.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/himalayan.jpg" alt="">
+		   </div>
+		   <div class="grid">
+			   <img src="images/img18.jpg" alt="">
+		   </div>
+		   
+		</div>
+		<!--
+	   <div class="container">
+		<div class="row justify-content-center mb-5 pb-5">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+			<h1 class="big big-2">Photos</h1>
+			<h2 class="mb-4">Photos</h2>
+	   </div>
+		</div>
+	   <div class="col-md-4 d-flex ftco-animate">
+		<div class="blog-entry justify-content-end">
+		<a class="block-20 zoom-effect" style="background-image: url('images/BMCC\ Group.jpg');">
+		</a>
+		<div class="text mt-3 float d-block">
+		
+			<h3 class="heading"><a href="">......MIT Group.....</a></h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="" class="block-20 zoom-effect" style="background-image: url(images/MIT\ Group.jpg);">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+				<h3 class="heading"><a href=""></a></h3>
+                <p>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="" class="block-20 zoom-effect" style="background-image: url(images/College\ Interactions.jpg);">
+              </a>
+              <div class="text mt-3 float-right d-block">
+  
+	
+		
+
+    </div>
+	</div>
+	</div>
+	</div>-->
+	</section>
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Vadgaon Maval Malinagar Pune-412106, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://+91 7719035765">+91 7719035765</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p text-align="center"><a href="riyapardeshi30@gmail.com" >riyapardeshi30@gmail.com</a></p>
+	          </div>
+			</div>
+
+		 
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+
+					  <li class="ftco-animate"><a href="http://www.linkedin.com/in/riya-pardeshi-8185a2326"><span class="icon-linkedin"></span></a></li>  
+					 
+
+				      <li class="ftco-animate"><a href="https://www.instagram.com/riyapardeshi30/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <i class="" aria-hidden=""></i><a href="" target="">Riya Pardeshi</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
